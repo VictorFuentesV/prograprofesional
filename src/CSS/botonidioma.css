@@ -1,0 +1,10 @@
+.language-switcher-container {
+    
+    display: flex;
+    justify-content: flex-end; /* Esto alinea el contenido al final del contenedor (lado derecho en este caso) */
+  }
+  
+  .language-switcher-button {
+    margin-left: 10px; /* Agrega un pequeño margen entre el botón y el borde del contenedor */
+  }
+  

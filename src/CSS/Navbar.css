@@ -1,0 +1,39 @@
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Ajusta el espacio interno de la barra de navegación según sea necesario */
+    
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; /* Elimina el relleno predeterminado */
+    list-style-type: none; /* Elimina los puntos de la lista */
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Agrega espacio entre los elementos */
+  }
+  
+  .nav-link {
+    font-family:  sans-serif;
+    transition: color 0.3s ease, transform 0.3s ease, border-radius 0.3s ease; /* Transiciones suaves para varios estilos */
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    text-transform: uppercase;
+    line-height: 80px;
+    padding: 0 10px;
+    width: max-content;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #034574; /* Cambia el color al pasar el mouse sobre los enlaces */
+    border-radius: 10px; /* Hace que los bordes sean redondeados */
+    padding:  4px 4px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #ffffff;
+  }
+  
